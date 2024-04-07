@@ -1,0 +1,3 @@
+google-cloud-monitoring
+google-cloud-monitoring-dashboards
+google-cloud-monitoring-metrics-scopes

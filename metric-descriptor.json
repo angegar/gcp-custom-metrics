@@ -1,0 +1,21 @@
+{
+    "name": "lab-bandwidth",
+    "type": "custom.googleapis.com/lab/vpn/bandwidth/download",
+    "labels": [
+        {
+            "key": "from",
+            "valueType": "STRING",
+            "description": "source test server"
+        },
+        {
+            "key": "to",
+            "valueType": "STRING",
+            "description": "destination test server"
+        }
+    ],
+    "metricKind": "GAUGE",
+    "valueType": "DOUBLE",
+    "unit": "By",
+    "description": "Download speed from the lab in byte per second",
+    "displayName": "Download speed"
+}
